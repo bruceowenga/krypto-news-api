@@ -44,7 +44,7 @@ sources.forEach(source => {
 
 
 app.get('/', (req, res) => {
-    res.json("Welcome to car api")});
+    res.json("Welcome to Kryoto News Api")});
 
 app.get('/news', (req, res) => {
     res.json(articles)});
